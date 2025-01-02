@@ -30,6 +30,5 @@ local function OnQuestReward(event, player, quest, xp)
     return false 
 end
 
--- Enregistrement des hooks
 RegisterPlayerEvent(12, OnGiveXP) 
 RegisterPlayerEvent(28, OnQuestReward) 

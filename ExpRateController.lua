@@ -19,7 +19,7 @@ function ExpRateController:OnRateChanged(player, rate)
 end
 
 function ExpRateController:GetRate(player)
-    return self.model:GetRate(player) -- Récupère le taux depuis la base de données
+    return self.model:GetRate(player)
 end
 
 
